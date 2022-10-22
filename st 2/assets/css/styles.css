@@ -44,8 +44,13 @@ body {
 
 .main-text {
   font-size: var(--main-text);
-  color: var(--main-color);
+  color: var(--side-color);
   font-weight: bold;
+  text-align: left;
+}
+
+.span-main-text {
+  color: var(--main-color);
 }
 
 .nav-link {
